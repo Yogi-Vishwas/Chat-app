@@ -1,0 +1,35 @@
+<div class="parent-div">
+  <form [formGroup]="authForm" (ngSubmit)="login()">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input
+        type="text"
+        id="username"
+        formControlName="username"
+        placeholder="Username"
+        class="form-control"
+      />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input
+        type="text"
+        id="password"
+        formControlName="password"
+        placeholder="Password"
+        class="form-control"
+      />
+    </div>
+
+    <!-- Submit button -->
+    <button
+      type="submit"
+      class="btn btn-primary btn-block mb-4"
+      style="margin-bottom: 10px"
+      [disabled]="!authForm.valid"
+    >
+      Sign in
+    </button>
+  </form>
+</div>

@@ -1,0 +1,28 @@
+.parent-div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 20%;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 20%;
+}
+
+.form-outline {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  margin: 5px 5px 5px 5px;
+}
+
+h1 {
+  margin-left: 20px;
+}

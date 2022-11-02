@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "pg",
+      "host": {
+        "ENV": "CHAT-SERVICE_DB_HOST"
+      },
+      "port": {
+        "ENV": "CHAT-SERVICE_DB_PORT"
+      },
+      "user": {
+        "ENV": "CHAT-SERVICE_DB_USER"
+      },
+      "password": {
+        "ENV": "CHAT-SERVICE_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "CHAT-SERVICE_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
